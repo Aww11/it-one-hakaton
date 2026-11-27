@@ -13,6 +13,8 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/it-one-hakaton',
   eslint: {
     ignoreDuringBuilds: true,
   },
